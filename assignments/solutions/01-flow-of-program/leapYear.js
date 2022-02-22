@@ -15,6 +15,8 @@ rl.question('Enter a year to check whether it is Leap Year or not: ', year => {
 });
 
 /**
+ * Output:
+ * 
  * Q: Enter a year to check whether it is Leap Year or not: 2022
  * A: 2022 is not a Leap Year
  * 
