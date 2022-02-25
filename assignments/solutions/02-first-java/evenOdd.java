@@ -1,6 +1,4 @@
-/*
-Print input number is Even or Odd
-*/
+// Print input number is Even or Odd
 
 import java.util.Scanner;
 

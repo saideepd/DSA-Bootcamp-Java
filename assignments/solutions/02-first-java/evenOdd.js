@@ -2,7 +2,7 @@
  * Print input number is Even or Odd
  * 
  * @param {number} input
- * @returns {number}
+ * @returns {boolean}
  */
 
 const readline = require('readline');
