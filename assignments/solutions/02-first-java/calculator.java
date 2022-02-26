@@ -47,7 +47,7 @@ public class calculator {
 }
 
 /*
-Output;
+Output:
 
 Calculator
 Enter any of the operators: '+', '-', '*','/','%'
