@@ -12,7 +12,6 @@ public class sumOfAllNumbers {
         System.out.println("Enter -1 to stop entering numbers");
         
         while ((input = scan.nextInt()) != -1) {
-            if(input == -1) break;
             result += input;
         }
         System.out.println("Sum of all Numbers = " + result);
