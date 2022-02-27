@@ -12,7 +12,7 @@ public class subtractProductAndSum {
         int product = 1, sum = 0, original = input;
         while (input > 0) {
             int temp = input % 10;
-            input = input / 10;
+            input /= 10;
             product *= temp;
             sum += temp;
         }
