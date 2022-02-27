@@ -29,7 +29,7 @@ public class volumePrograms {
                 float radius = scan.nextFloat();
                 System.out.print("Enter height of Cone: ");
                 float height = scan.nextFloat();
-                System.out.printf("Volume Of Cone with radius: %.2f & height: %.2f = %f\n", radius, height, (0.3333 * pi * radius * radius * height));
+                System.out.printf("Volume Of Cone with radius: %.2f & height: %.2f = %.2f\n", radius, height, (0.3333 * pi * radius * radius * height));
                 break;
 
             case 2: System.out.println("2. Volume Of Prism");
@@ -63,7 +63,7 @@ public class volumePrograms {
                 float py_slant_height = scan.nextFloat();
                 System.out.print("Enter height of Pyramid: ");
                 float py_height = scan.nextFloat();
-                System.out.printf("Volume Of Pyramid with base: %.2f, slant height: %.2f & height: %.2f = %.5f\n", py_base, py_slant_height, py_height, (0.3333 * (0.5 * py_base * py_height) * py_slant_height));
+                System.out.printf("Volume Of Pyramid with base: %.2f, slant height: %.2f & height: %.2f = %.2f\n", py_base, py_slant_height, py_height, (0.3333 * (0.5 * py_base * py_height) * py_slant_height));
                 break;
                 
             default: System.out.println("Invalid choice!");
@@ -88,7 +88,7 @@ Enter choice number from above: 1
 1. Volume Of Cone
 Enter radius of Cone: 7
 Enter height of Cone: 9
-Volume Of Cone with radius: 7.00 & height: 9.00 = 461.533842
+Volume Of Cone with radius: 7.00 & height: 9.00 = 461.53
 
 2. Volume Of Prism
 Enter base of triangular part of Prism: 3
@@ -109,5 +109,9 @@ Volume Of Sphere with radius: 6.00 = 904.30
 Enter base of triangular part of Pyramid: 4
 Enter slant height of Pyramid: 10
 Enter height of Pyramid: 12
-Volume Of Pyramid with base: 4.00, slant height: 10.00 & height: 12.00 = 81.60000
+Volume Of Pyramid with base: 4.00, slant height: 10.00 & height: 12.00 = 81.60
+
+Enter choice number from above: 8
+
+Invalid choice!
 */
