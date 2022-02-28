@@ -17,7 +17,9 @@ public class powerOfNumber {
 /*
 Output:
 
-Enter Amount: 300
-Enter Commission Percentage: 2
-Total Commission: 6.0
+Power In Java
+
+Enter Number: 6
+Enter Power: 3
+Power of Number 6 = 216.0
 */
