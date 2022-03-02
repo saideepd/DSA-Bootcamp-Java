@@ -1,10 +1,9 @@
-// Armstrong Number
+// Calculate nCr and nPr
 
 import java.util.Scanner;
 
 public class nCr_nPr {
     public static void main (String args[]) {
-        int temp = 0, sum = 0, original = 0;
         Scanner scan = new Scanner(System.in);
         System.out.println("nCr & nPr\n");
         System.out.print("Enter value of n: ");
