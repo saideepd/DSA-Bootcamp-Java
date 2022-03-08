@@ -1,3 +1,4 @@
+// Function that returns all prime numbers between two given numbers
 
 import java.util.Scanner;
 
