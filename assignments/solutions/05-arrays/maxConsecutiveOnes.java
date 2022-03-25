@@ -22,8 +22,11 @@ public class maxConsecutiveOnes {
     private static int findMaxConsecutiveOnes (int[] nums) {
         int count = 0, maxCount = 0;
         for (int i = 0; i < nums.length; i++) {
+            // Reset count if current item is 0
             if (nums[i] == 0)
                 count = 0;
+            // Until current item is 1, increment counter
+            // And store the maximum between maxCount and count
             else {
                 count++;
                 maxCount = Math.max(maxCount, count);
