@@ -11,12 +11,14 @@ public class findSmallestLetterGreaterThanTarget {
         System.out.println("Find Smallest Letter Greater than Target");
 
         char[] letters = {'c', 'f', 'j'};
+        char[] letters2 = {'e','e','e','e','e','e','n','n','n','n'};
 
         System.out.println(Arrays.toString(letters) + ", a = " + nextGreatestLetter(letters, 'a'));
         System.out.println(Arrays.toString(letters) + ", c = " + nextGreatestLetter(letters, 'c'));
         System.out.println(Arrays.toString(letters) + ", d = " + nextGreatestLetter(letters, 'd'));
         System.out.println(Arrays.toString(letters) + ", h = " + nextGreatestLetter(letters, 'h'));
         System.out.println(Arrays.toString(letters) + ", m = " + nextGreatestLetter(letters, 'm'));
+        System.out.println(Arrays.toString(letters2) + ", a = " + nextGreatestLetter(letters2, 'a'));
     }
 
     private static char nextGreatestLetter(char[] letters, char target) {
@@ -47,4 +49,5 @@ public class findSmallestLetterGreaterThanTarget {
  * [c, f, j], d = f
  * [c, f, j], h = j
  * [c, f, j], m = c
+ * [e, e, e, e, e, e, n, n, n, n], a = e
  */
