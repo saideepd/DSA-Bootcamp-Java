@@ -12,15 +12,14 @@ public class findSmallestLetterGreaterThanTarget {
 
         char[] letters = {'c', 'f', 'j'};
 
-        System.out.println(Arrays.toString(letters) + ", a = " + (char) nextGreatestLetter(letters, 'a'));
-        System.out.println(Arrays.toString(letters) + ", c = " + (char) nextGreatestLetter(letters, 'c'));
-        System.out.println(Arrays.toString(letters) + ", d = " + (char) nextGreatestLetter(letters, 'd'));
-        System.out.println(Arrays.toString(letters) + ", h = " + (char) nextGreatestLetter(letters, 'h'));
-        System.out.println(Arrays.toString(letters) + ", a = " + (char) nextGreatestLetter(letters, 'a'));
-        System.out.println(Arrays.toString(letters) + ", m = " + (char) nextGreatestLetter(letters, 'm'));
+        System.out.println(Arrays.toString(letters) + ", a = " + nextGreatestLetter(letters, 'a'));
+        System.out.println(Arrays.toString(letters) + ", c = " + nextGreatestLetter(letters, 'c'));
+        System.out.println(Arrays.toString(letters) + ", d = " + nextGreatestLetter(letters, 'd'));
+        System.out.println(Arrays.toString(letters) + ", h = " + nextGreatestLetter(letters, 'h'));
+        System.out.println(Arrays.toString(letters) + ", m = " + nextGreatestLetter(letters, 'm'));
     }
 
-    private static int nextGreatestLetter(char[] letters, char target) {
+    private static char nextGreatestLetter(char[] letters, char target) {
         int start = 0, end = letters.length - 1;
         while (start <= end) {
             // Calculate mid value
@@ -47,6 +46,5 @@ public class findSmallestLetterGreaterThanTarget {
  * [c, f, j], c = f
  * [c, f, j], d = f
  * [c, f, j], h = j
- * [c, f, j], a = c
  * [c, f, j], m = c
  */
