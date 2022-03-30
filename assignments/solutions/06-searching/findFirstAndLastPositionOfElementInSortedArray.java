@@ -23,13 +23,12 @@ public class findFirstAndLastPositionOfElementInSortedArray {
     private static int[] searchRange(int[] nums, int target) {
         int[] ans = { -1, -1 };
 
-        // Find start & end index value of target
-        int start = searchIndex(nums, target, true);
-        int end = searchIndex(nums, target, false);
-
-        // Update ans array with updated start & end values
-        ans[0] = start;
-        ans[1] = end;
+        // Find first & last index value of target
+        // And set the ans array
+        ans[0] = searchIndex(nums, target, true);
+        // Try finding last index only if start is not -1 which implies the target does not exist in array
+        if (ans[0] != -1)
+            ans[1] = searchIndex(nums, target, false);
 
         return ans;
     }
