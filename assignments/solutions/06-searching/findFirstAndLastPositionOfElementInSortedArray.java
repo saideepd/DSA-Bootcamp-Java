@@ -25,15 +25,15 @@ public class findFirstAndLastPositionOfElementInSortedArray {
 
         // Find first & last index value of target
         // And set the ans array
-        ans[0] = searchIndex(nums, target, true);
+        ans[0] = binarySearch(nums, target, true);
         // Try finding last index only if start is not -1 which implies the target does not exist in array
         if (ans[0] != -1)
-            ans[1] = searchIndex(nums, target, false);
+            ans[1] = binarySearch(nums, target, false);
 
         return ans;
     }
 
-    private static int searchIndex(int[] nums, int target, boolean findStartIndex) {
+    private static int binarySearch(int[] nums, int target, boolean findStartIndex) {
         int start = 0, end = nums.length - 1, ans = -1;
 
         while (start <= end) {
