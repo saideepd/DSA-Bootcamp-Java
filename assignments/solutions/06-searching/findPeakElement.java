@@ -35,15 +35,11 @@ public class findPeakElement {
             else
                 start = mid + 1;
         }
-        // In the end, start == end and pointing to the largest number because of the 2
-        // checks above
+        // In the end, start == end and pointing to the largest number because of the 2 checks above
         // start & end are always trying to find the largest number in above 2 checks
-        // hence they are pointing to just one element, that is the max element because
-        // that is what the checks do
-        // Elaborated : At every point of start & end, they have the best possible
-        // answer till that time
-        // and if we're saying that only one items is remaining, hence because of above
-        // line that is the best possible answer
+        // hence they are pointing to just one element, that is the max element because that is what the checks do
+        // Elaborated : At every point of start & end, they have the best possible answer till that time
+        // and if we're saying that only one items is remaining, hence because of above line that is the best possible answer
         return start;
     }
 }
