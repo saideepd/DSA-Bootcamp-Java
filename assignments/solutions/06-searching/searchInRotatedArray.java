@@ -12,10 +12,12 @@ public class searchInRotatedArray {
 
         int[] nums1 = { 4, 5, 6, 7, 0, 1, 2 };
         int[] nums2 = { 1 };
+        int[] nums3 = { 3, 5, 1 };
 
         System.out.println(Arrays.toString(nums1) + " = " + search(nums1, 0));
         System.out.println(Arrays.toString(nums1) + " = " + search(nums1, 3));
         System.out.println(Arrays.toString(nums2) + " = " + search(nums2, 0));
+        System.out.println(Arrays.toString(nums3) + " = " + search(nums3, 3));
     }
 
     private static int search(int[] nums, int target) {
@@ -106,4 +108,5 @@ public class searchInRotatedArray {
  * [4, 5, 6, 7, 0, 1, 2] = 4
  * [4, 5, 6, 7, 0, 1, 2] = -1
  * [1] = -1
+ * [3, 5, 1] = 0
  */
