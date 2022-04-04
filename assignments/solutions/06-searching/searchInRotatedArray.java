@@ -71,7 +71,7 @@ public class searchInRotatedArray {
             // 4 cases
 
             // Check if mid element is greater than next element of mid
-            // meaning that the next part is ascending sorte & all elements < mid
+            // meaning that the next part is ascending sorted & all elements < mid
             // Also, make sure that we don't go out of array index range
             // by checking if mid < end index
             if (mid < end && nums[mid] > nums[mid + 1])
