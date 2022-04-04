@@ -1,3 +1,9 @@
+/**
+ * Find Rotation Count in Sorted Array
+ * https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
+ * Category: Array, Binary Search
+ */
+
 import java.util.Arrays;
 
 public class findRotationCountInSortedArray {
