@@ -12,18 +12,15 @@ public class bubbleSort {
 
         int[] arr1 = { 3, 1, 5, 4, 2 };
         System.out.println("Before Sorting = " + Arrays.toString(arr1));
-        bubble(arr1);
-        System.out.println("After Sorting = " + Arrays.toString(arr1) + "\n");
+        System.out.println("After Sorting = " + Arrays.toString(bubble(arr1)) + "\n");
 
         int[] arr2 = { 1, 2, 3, 4, 5 };
         System.out.println("Before Sorting = " + Arrays.toString(arr2));
-        bubble(arr2);
-        System.out.println("After Sorting = " + Arrays.toString(arr2) + "\n");
+        System.out.println("After Sorting = " + Arrays.toString(bubble(arr2)) + "\n");
 
         int[] arr3 = { -3, 3, -16, 0, 1, 10, -44 };
         System.out.println("Before Sorting = " + Arrays.toString(arr3));
-        bubble(arr3);
-        System.out.println("After Sorting = " + Arrays.toString(arr3));
+        System.out.println("After Sorting = " + Arrays.toString(bubble(arr3)));
     }
 
     private static int[] bubble(int[] arr) {
