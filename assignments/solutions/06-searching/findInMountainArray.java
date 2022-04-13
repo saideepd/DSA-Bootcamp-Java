@@ -31,6 +31,7 @@ public class findInMountainArray {
         return orderAgnosticBinarySearchAlgorithm(arr, target, peak + 1, arr.length - 1);
     }
 
+    // Finding Peak Index in Mountain Array
     private static int peakIndexInMountainArray(int[] arr) {
         int start = 0, end = arr.length - 1;
         // Not having <= condition as we want to compare in 2 parts of array
@@ -57,6 +58,8 @@ public class findInMountainArray {
         return start;
     }
 
+    // Finding target by applying Order Agnostic Binary Search Algorithm
+    // to search both sides of array (0 to peak & peak+1 to end)
     private static int orderAgnosticBinarySearchAlgorithm(int[] arr, int target, int start, int end) {
         // Find whether the array is in Ascending or Descending Order
         boolean isAscending = arr[start] < arr[end];
